@@ -1,0 +1,19 @@
+<div class="jumbotron">
+    <h1><span class="zf-green">Users</span></h1>
+    <a href="<?= $this->url('users', ['action' => 'add']) ?>">Add User</a>
+    <table class="table">
+        <tr>
+        <th>Id</th><th>Name</th><th>Actions</th>
+        </tr>
+        <?php foreach ($userRows as $user): ?>
+        <tr>
+            <td><?= $user->getId() ?></td>
+            <td><?= $user->getUsername() ?></td>
+            <td>
+                <a href="<?= $this->url('users', ['action' => 'edit', 'id' => $user->getId()]) ?>">Edit</a> |
+                <a href="<?= $this->url('users', ['action' => 'delete', 'id' => $user->getId()]) ?>">Remove</a>
+            </td>
+        </tr>
+        <?php endforeach; ?>
+    </table>
+</div>
