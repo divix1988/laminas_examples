@@ -1,0 +1,12 @@
+<div class="jumbotron">
+    <h1><span class="zf-green">User from DB test</span></h1>
+    <p>
+        Found user:<br /><br />
+        Id: <?= $id; ?><br />
+        Username: <?= $username; ?><br />
+        Password: <?= $password; ?>
+    </p>
+</div>
+
+<?php echo $this->flashMessenger()->render('success', ['alert', 'alert-success']); ?>
+Has message: <?php var_dump($this->flashMessenger()->hasMessages('success')); ?>
