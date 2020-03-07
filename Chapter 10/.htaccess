@@ -1,0 +1,4 @@
+SetEnv APPLICATION_ENV development
+
+RewriteEngine On
+RewriteRule .* index.php
