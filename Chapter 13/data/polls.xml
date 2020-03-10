@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<polls>
+    <poll id="1" active="false">
+        <question>The best feature of new Laminas is:</question>
+        <answers>
+            <answer votes="1">Efficiency and backwards compatibility</answer>
+            <answer votes="0">Distributed components</answer>
+            <answer votes="0">Event Manager</answer>
+            <answer votes="0">Enhanced Service Manager</answer>
+            <answer votes="0">PSR7 and PHP 7 support</answer>
+        </answers>
+    </poll>
+
+    <poll id="2" active="true">
+        <question>Which IDE is the the best?</question>
+        <answers>
+            <answer votes="2">Netbeans</answer>
+            <answer votes="0">Eclipse</answer>
+            <answer votes="1">Komodo</answer>
+            <answer votes="0">PhpStorm</answer>
+            <answer votes="0">Sublime Text</answer>
+        </answers>
+    </poll>
+</polls>
