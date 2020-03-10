@@ -1,0 +1,16 @@
+<div class="jumbotron">
+    <h1><span class="zf-green">New User</span></h1>
+    <?php
+        $userForm->setAttribute('action', $this->url('users', ['action' => 'add']));
+        $userForm->prepare();
+        echo $this->form()->openTag($userForm);
+        echo $this->formHidden($userForm->get('id'));
+        echo $this->formRow($userForm->get('username'));
+        echo $this->formRow($userForm->get('email'));
+        echo $this->formRow($userForm->get('user_info')->get('gender'));
+        echo $this->formRow($userForm->get('user_info')->get('education'));
+        echo $this->formRow($userForm->get('user_info')->get('hobby'));
+        echo $this->formSubmit($userForm->get('submit'));
+        echo $this->form()->closeTag();
+    ?>
+</div>
