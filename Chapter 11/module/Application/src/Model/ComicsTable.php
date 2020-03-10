@@ -14,20 +14,24 @@ class ComicsTable extends AbstractTable
             $params['page'] = 0;
         }
         if (isset($params['id'])) {
-            $select->where('id = ?', $params['id']);
+            $select->where(['id' => $params['id']]);
             $params['limit'] = 1;
         }
         if (isset($params['title'])) {
-            $select->where('title = ?', $params['title']);
+            $select->where(['title' => $params['title']]);
         }
         if (isset($params['thumb'])) {
-            $select->where('thumb = ?', $params['thumb']);
+            $select->where(['thumb' => $params['thumb']]);
+        }
+        if (isset($params['limit'])) {
+           $select->limit($params['limit']);
         }
         if (isset($params['limit'])) {
             $select->limit($params['limit']);
         }
+
         $result = (isset($params['limit']) && $params['limit'] == 1)
-            ? $select->fetchRow()
+            ? $this->fetchRow($select)
             : $this->fetchAll($select, ['limit' => $this->resultsPerPage, 'page' => $params['page']]);
         
         return $result;
