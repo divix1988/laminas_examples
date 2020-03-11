@@ -88,7 +88,8 @@ return [
                         'action' => 'index',
                     ],
                 ],
-            ]
+            ],
+
 
 
         ],
@@ -124,8 +125,9 @@ return [
                 return $table;
             },
             Controller\PollingController::class => function($sm) {
-                return new Controller\PollingController($sm->get(\DivixUtils\Polls\Polls::class));
+                return new Controller\PollingController($sm->get(\Utils\Polls\Polls::class));
             },
+
 
         ],
     ],

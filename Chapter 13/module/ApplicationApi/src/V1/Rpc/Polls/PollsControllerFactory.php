@@ -5,6 +5,6 @@ class PollsControllerFactory
 {
     public function __invoke($controllers)
     {
-        return new PollsController($controllers->get(\DivixUtils\Polls\Polls::class));
+        return new PollsController($controllers->get(\Utils\Polls\Polls::class));
     }
 }

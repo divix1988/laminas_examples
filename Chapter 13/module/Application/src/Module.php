@@ -79,7 +79,7 @@ class Module
 
                     return $table;
                 },
-                \DivixUtils\Polls\Polls::class => InvokableFactory::class
+
             )
         );
     }
