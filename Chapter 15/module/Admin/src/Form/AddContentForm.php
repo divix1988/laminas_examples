@@ -16,7 +16,7 @@ class AddContentForm extends \Laminas\Form\Form implements \Laminas\InputFilter\
             'name' => self::ELEMENT_NAME,
             'type' => Element\Text::class,
             'options' => [
-                'label' => 'Username',
+                'label' => 'Name',
             ],
             'attributes' => [
                 'required' => true

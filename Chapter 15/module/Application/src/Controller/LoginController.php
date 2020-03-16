@@ -44,7 +44,11 @@ class LoginController extends AbstractController
             $sessionUser = new Session\Container('user');
             $sessionUser->details = $rowset;
             
-            return $this->redirect()->toRoute('login', ['action' => 'progressuser']);
+            if ($rowset->getRole() === 'admin') {
+                return $this->redirect()->toRoute('admin', ['action' => 'index']);
+            } else {
+                return $this->redirect()->toRoute('login', ['action' => 'progressuser']);
+            }
         } else {
             $message = '<strong>Error</strong> Given email address or password is incorrect.';
             return [

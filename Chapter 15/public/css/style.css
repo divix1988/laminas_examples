@@ -66,10 +66,10 @@ form#user label span {
     width: 300px;
 }
 
-form.styledForm label {
+form.styledForm > label {
     display: block;
 }
-form.styledForm label span {
+form.styledForm > label > span {
     width: 130px;
     display: inline-block;
     margin: 5px 0;

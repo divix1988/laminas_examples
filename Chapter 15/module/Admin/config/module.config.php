@@ -14,7 +14,7 @@ return [
     'controllers' => [
         'factories' => [
             Controller\AdminController::class => function($sm) {
-                return new Controller\AdminController();
+                return new Controller\AdminController($sm->get(\Application\Model\Admin\ContentManager::class));
             },
             Controller\ArticlesController::class => function($sm) {
                 return new Controller\ArticlesController($sm->get(\Application\Model\Admin\ContentManager::class));

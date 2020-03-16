@@ -25,7 +25,9 @@ class AddLangContentForm extends \Laminas\Form\Form implements \Laminas\InputFil
                 'label' => 'Contents'
             ],
             'attributes' => [
-                'required' => true
+                'required' => true,
+                'class' => 'ckeditor',
+                'style' => 'width:100%'
             ],
         ]);
 
