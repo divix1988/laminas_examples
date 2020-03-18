@@ -1,0 +1,30 @@
+<div class="jumbotron">
+    <h1><span class="zf-green">Available polls</span></h1>
+    <table class="table">
+        <tr>
+            <th>Id</th>
+            <th>Question</th>
+            <th>Answers</th>
+            <th>Activate</th>
+        </tr>
+        <?php foreach ($polls as $row): ?>
+        <tr>
+            <td><?= $row['id'] ?></td>
+            <td><?= $row->question ?></td>
+            <td>
+                <?php foreach ($row->answers->answer as $answer): ?>
+                    <?= $answer.' ('.$answer['votes'].')' ?><br />
+                <?php endforeach; ?>
+            </td>
+
+            <td>
+                <?php if ($row['active'] == 'true'): ?>
+                    <b>Active</b>
+                <?php else: ?>
+                    <a href="<?= $this->url('polling').'/activate/'.$row['id']; ?>">Activate</a>
+                <?php endif; ?>
+            </td>
+        </tr>
+        <?php endforeach; ?>
+    </table>
+</div>

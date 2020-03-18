@@ -1,0 +1,44 @@
+<?php if ($this->pageCount): ?>
+    <div class="paginationControl">
+    <?= $this->firstItemNumber; ?> - <?= $this->lastItemNumber; ?> 
+    z <?= $this->totalItemCount; ?>
+
+    <!-- Link do pierwszej strony  -->
+    <?php if (isset($this->previous)): ?>
+      <a href="<?= $this->url($this->route, ['page' => $this->first]); ?>">
+        First
+      </a> |
+    <?php else: ?>
+      <span class="disabled">First</span> |
+    <?php endif; ?>
+
+    <!-- Link do poprzedniej strony  -->
+    <?php if (isset($this->previous)): ?>
+      <a href="<?= $this->url($this->route, ['page' => $this->previous]); ?>">
+        &lt; Previous
+      </a> |
+    <?php else: ?>
+      <span class="disabled">&lt; Previous</span> |
+    <?php endif; ?>
+
+    <!-- Link do następnej strony  -->
+    <?php if (isset($this->next)): ?>
+      <a href="<?= $this->url($this->route, ['page' => $this->next]); ?>">
+        Next &gt;
+      </a> |
+    <?php else: ?>
+      <span class="disabled">Next &gt;</span> |
+    <?php endif; ?>
+
+    <!-- Link do ostatniej strony  -->
+    <?php if (isset($this->next)): ?>
+      <a href="<?= $this->url($this->route, ['page' => $this->last]); ?>">
+        Last
+      </a>
+    <?php else: ?>
+      <span class="disabled">Last</span>
+    <?php endif; ?>
+
+    </div>
+<?php endif; ?>
+
