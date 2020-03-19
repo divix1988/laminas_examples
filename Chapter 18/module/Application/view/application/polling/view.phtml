@@ -1,0 +1,45 @@
+<div class="jumbotron">
+    <h1><span class="zf-green">Active poll</span></h1>
+    <div class="pollsContainer">
+        <?php
+        echo $this->form()->openTag($form);
+        echo $this->formHidden($form->get('csrf_field'));
+        echo $poll->question;
+        echo $this->formRow($form->get('answer'));
+        echo $this->formSubmit($form->get('submit'));
+        echo $this->form()->closeTag();
+        ?>
+    </div>
+    <script>
+        $(function() {
+            $('#poll').submit(function() {
+                var answer = $(this).find('input[type="radio"]:checked'),
+                csrf = $(this).find('#csrf_field').val();
+
+                if (answer.length != 1) {
+                    alert('Select answer');
+                    return false;
+                }
+                $.post({
+                    url: '/laminas_app/polls',
+                    data: JSON.stringify({
+                        answer: answer.val(),
+                        csrf: csrf
+                    }),
+                    headers: {
+                        'Accept': 'application/json',
+                        'Content-Type': 'application/json'
+                    }
+                }).done(function(response) {
+                    if (response.success === true) {
+                        alert('Vote has been submitted.');
+                    } else if (response.message) {
+                        alert(response.message);
+                    }
+                });
+                
+            return false;
+            });
+        });
+</script>
+</div>

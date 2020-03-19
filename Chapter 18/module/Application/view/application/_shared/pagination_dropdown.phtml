@@ -1,0 +1,22 @@
+<?php if ($this->pageCount): ?>
+    <div class="paginationControl">
+        Page: 
+        <select id="paginationControl" size="1">
+        <?php foreach ($this->pagesInRange as $page): ?>
+          <?php $selected = ($page == $this->current) ? ' selected="selected"' : ''; ?>
+          <option value="<?= $this->url($this->route, ['page' => $page]);?>"<?= $selected ?>>
+            <?= $page; ?>
+          </option>
+        <?php endforeach; ?>
+        </select>
+    </div>
+<?php endif; ?>
+
+<script type="text/javascript"
+     src="http://ajax.googleapis.com/ajax/libs/prototype/1.6.0.2/prototype.js">
+</script>
+<script type="text/javascript">
+$('paginationControl').observe('change', function() {
+    window.location = this.options[this.selectedIndex].value;
+})
+</script>
