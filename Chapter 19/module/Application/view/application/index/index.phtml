@@ -1,0 +1,115 @@
+<div class="jumbotron">
+    <h1><span class="zf-green">User from DB test</span></h1>
+    <p>
+        Found user:<br /><br />
+        Id: <?= $id; ?><br />
+        Username: <?= $username; ?><br />
+        Password: <?= $password; ?>
+    </p>
+</div>
+
+<?php echo $this->flashMessenger()->render('success', ['alert', 'alert-success']); ?>
+Has message: <?php var_dump($this->flashMessenger()->hasMessages('success')); ?>
+
+<hr />
+<div class="jumbotron">
+    <h2 class="zf-green">Transaltions</h2>
+    <?= $this->translate('abc', 'default', 'en_US') ?><br />
+    <?= sprintf($this->translate('abc_params'), 'first', 'second') ?>
+    
+    <hr />
+    <h2 class="zf-green">Numbers:</h2>
+    American format: <?= $this->numberFormat(
+	2000.1234560,
+	NumberFormatter::DECIMAL,
+	NumberFormatter::TYPE_DEFAULT,
+	'en_US'
+    ); ?><br />
+
+    Polish format: <?= $this->numberFormat(
+	2000.1234560,
+	NumberFormatter::DECIMAL,
+	NumberFormatter::TYPE_DEFAULT
+    ); ?><br />
+
+    Polish format without decimals and with negative character on the end: <?= $this->numberFormat(
+	-2000.1234560,
+	NumberFormatter::DECIMAL,
+	NumberFormatter::TYPE_DEFAULT,
+	'pl_PL',
+	false,
+	[
+		NumberFormatter::POSITIVE_SUFFIX => ' ^',
+		NumberFormatter::NEGATIVE_SUFFIX => ' ˅'
+	]
+    ); ?><br />
+    
+    <hr />
+    <h2 class="zf-green">Currencies:</h2>
+    American dolar format: <?= $this->currencyFormat(
+	1234.56,
+	'USD',
+	true,
+	'en_US'
+    ); ?><br />
+
+    Polish dolar format: <?= $this->currencyFormat(
+	1234.56,
+	'USD',
+	true
+    ); ?><br />
+
+    Polish zloty format without decimals: <?= $this->currencyFormat(
+	1234.56,
+	'PLN',
+	false,
+	'pl_PL',
+	'<#>'
+    ); ?><br />
+
+    <hr />
+    <h2 class="zf-green">Dates:</h2>
+    American date format: <?= $this->dateFormat(
+	new DateTime(),
+	IntlDateFormatter::MEDIUM, //data
+	IntlDateFormatter::MEDIUM, //czas
+	'en_US'
+    ); ?><br />
+
+    Polish date format: <?= $this->dateFormat(
+	new DateTime(),
+	IntlDateFormatter::LONG,
+	IntlDateFormatter::MEDIUM
+    ); ?><br />
+
+    Polish shorter date format without time: <?= $this->dateFormat(
+	new DateTime(),
+	IntlDateFormatter::SHORT
+    ); ?><br />
+
+    <hr />
+    
+    <h2 class="zf-green">Plural examples:</h2>
+    English:<br />
+    <?php
+        //we set a general rule of the plural in the view file or in onBootstrap() method via Service Manager
+        $this->plugin('plural')->setPluralRule('nplurals=2; plural=(n==0 || n==1 ? 0 : 1)');
+        $hours = ['hour', 'hours'];
+    ?>
+
+    1: <?= $this->plural($hours, 1); ?><br />
+    2: <?= $this->plural($hours, 2); ?><br />
+    5: <?= $this->plural($hours, 5); ?><br />
+    <br />
+
+    Polish:<br />
+    <?php
+        $this->plugin('plural')->setPluralRule('nplurals=3; plural=((n == 1) ? 0 : (((n % 10 >= 2) && (n % 10 <= 4) && ((n % 100 < 12) || (n % 100 > 14))) ? 1 : 2))');
+        $hours = ['godzina', 'godziny', 'godzin'];
+    ?>
+
+    1: <?= $this->plural($hours, 1); ?><br />
+    2: <?= $this->plural($hours, 2); ?><br />
+5: <?= $this->plural($hours, 5); ?><br />
+
+</div>

@@ -1,0 +1,42 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Laminas MVC Skeleton</title>
+
+        <link href="{$baseUrl}/img/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+	<link href="{$baseUrl}/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="{$baseUrl}/css/style.css" rel="stylesheet" type="text/css" />
+
+        <script type="text/javascript" src="{$baseUrl}/js/jquery-3.4.1.min.js"></script>
+        <script type="text/javascript" src="{$baseUrl}/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a class="navbar-brand" href="{$baseUrl}">
+                        <img src="{$baseUrl}/img/laminas-logo.svg" height="28" alt="Laminas MVC Skeleton"/>&nbsp;Laminas MVC Skeleton
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="{$baseUrl}">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li><a class="nav-link" href="{$baseUrl}/users/index">Users</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            {block 'content'}{/block}
+            <hr>
+            <footer>
+                <p>&copy; <?= date('Y') ?> "Laminas: Build Enterprise Websites" - Adam Omelak.</p>
+            </footer>
+        </div>
+    </body>
+</html>

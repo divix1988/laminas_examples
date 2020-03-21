@@ -1,0 +1,13 @@
+<div class="jumbotron">
+    <h1><span class="zf-green">Delete User</span></h1>
+    <p>
+        Confirm deletion of user: "<?= $user->getUsername() ?>"
+    </p>
+    <form action="<?= $this->url('users', ['action' => 'delete', 'id' => $id]) ?>" method="post">
+    <div class="form-group">
+        <input type="hidden" name="id" value="<?= (int) $user->getId() ?>" />
+            <input type="submit" class="btn btn-danger" name="del" value="Delete" />
+            <input type="submit" class="btn btn-success" name="del" value="Cancel" />
+        </div>
+    </form>
+</div>

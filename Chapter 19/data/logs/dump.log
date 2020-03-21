@@ -1,0 +1,2035 @@
+2020-03-18T22:07:54+01:00 INFO (6): In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\IndexController.php at line 62 executed Utils\Logs\Debug::dump^ array:2 [
+  0 => "long message"
+  1 => array:4 [
+    "desc" => "long"
+    "log" => true
+    "display" => true
+    "exit" => false
+  ]
+]
+Sfdump("sf-dump-2089900852")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractActionController.php at line 77 executed Application\Controller\IndexController->indexActionIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\AbstractController.php at line 18 executed Laminas\Mvc\Controller\AbstractActionController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-562070221")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Application\Controller\AbstractController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-2020241060")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-409800196")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractController.php at line 103 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-2143431279")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\DispatchListener.php at line 139 executed Laminas\Mvc\Controller\AbstractController->dispatch^ array:2 [
+  0 => "Laminas\ApiTools\ContentNegotiation\Request"
+  1 => "Laminas\Http\PhpEnvironment\Response"
+]
+Sfdump("sf-dump-429811506")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Laminas\Mvc\DispatchListener->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-239634199")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-1382640217")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Application.php at line 331 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1096554352")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php at line 53 executed Laminas\Mvc\Application->runIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\index.php at line 1 executed include^ array:1 [
+  0 => "E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php"
+]
+Sfdump("sf-dump-1608323548")
+^ "long message"
+Sfdump("sf-dump-340093996")
+
+
+2020-03-18T22:11:59+01:00 INFO (6): In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\IndexController.php at line 62 executed Utils\Logs\Debug::dump^ array:2 [
+  0 => "long message"
+  1 => array:4 [
+    "desc" => "long"
+    "log" => true
+    "display" => true
+    "exit" => false
+  ]
+]
+Sfdump("sf-dump-405039051")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractActionController.php at line 77 executed Application\Controller\IndexController->indexActionIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\AbstractController.php at line 18 executed Laminas\Mvc\Controller\AbstractActionController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1137131886")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Application\Controller\AbstractController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-460407669")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-1303137124")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractController.php at line 103 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-2129725764")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\DispatchListener.php at line 139 executed Laminas\Mvc\Controller\AbstractController->dispatch^ array:2 [
+  0 => "Laminas\ApiTools\ContentNegotiation\Request"
+  1 => "Laminas\Http\PhpEnvironment\Response"
+]
+Sfdump("sf-dump-310485205")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Laminas\Mvc\DispatchListener->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1873471095")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-1931088847")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Application.php at line 331 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1272815586")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php at line 53 executed Laminas\Mvc\Application->runIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\index.php at line 1 executed include^ array:1 [
+  0 => "E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php"
+]
+Sfdump("sf-dump-277421416")
+^ "long message"
+Sfdump("sf-dump-1195084029")
+
+
+2020-03-18T22:39:39+01:00 INFO (6): In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\IndexController.php at line 62 executed Utils\Logs\Debug::dump^ array:2 [
+  0 => "long message"
+  1 => array:4 [
+    "desc" => "long"
+    "log" => true
+    "display" => true
+    "exit" => false
+  ]
+]
+Sfdump("sf-dump-2118359488")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractActionController.php at line 77 executed Application\Controller\IndexController->indexActionIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\AbstractController.php at line 18 executed Laminas\Mvc\Controller\AbstractActionController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1073838507")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Application\Controller\AbstractController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1040580421")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-1427784651")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractController.php at line 103 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-764704670")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\DispatchListener.php at line 139 executed Laminas\Mvc\Controller\AbstractController->dispatch^ array:2 [
+  0 => "Laminas\ApiTools\ContentNegotiation\Request"
+  1 => "Laminas\Http\PhpEnvironment\Response"
+]
+Sfdump("sf-dump-2101255398")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Laminas\Mvc\DispatchListener->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1124271390")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-281883859")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Application.php at line 331 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-286911149")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php at line 53 executed Laminas\Mvc\Application->runIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\index.php at line 1 executed include^ array:1 [
+  0 => "E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php"
+]
+Sfdump("sf-dump-1279924093")
+^ "long message"
+Sfdump("sf-dump-772955300")
+
+
+2020-03-18T22:41:53+01:00 INFO (6): In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\IndexController.php at line 62 executed Utils\Logs\Debug::dump^ array:2 [
+  0 => "long message"
+  1 => array:4 [
+    "desc" => "long"
+    "log" => true
+    "display" => true
+    "exit" => false
+  ]
+]
+Sfdump("sf-dump-1636745264")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractActionController.php at line 77 executed Application\Controller\IndexController->indexActionIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\AbstractController.php at line 18 executed Laminas\Mvc\Controller\AbstractActionController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1994259738")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Application\Controller\AbstractController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1785553660")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-19227051")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractController.php at line 103 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-489689223")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\DispatchListener.php at line 139 executed Laminas\Mvc\Controller\AbstractController->dispatch^ array:2 [
+  0 => "Laminas\ApiTools\ContentNegotiation\Request"
+  1 => "Laminas\Http\PhpEnvironment\Response"
+]
+Sfdump("sf-dump-296915248")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Laminas\Mvc\DispatchListener->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1386546644")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-453030057")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Application.php at line 331 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-225247410")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php at line 53 executed Laminas\Mvc\Application->runIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\index.php at line 1 executed include^ array:1 [
+  0 => "E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php"
+]
+Sfdump("sf-dump-702950242")
+^ "long message"
+Sfdump("sf-dump-965860373")
+
+
+2020-03-18T23:14:19+01:00 INFO (6): In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\IndexController.php at line 62 executed Utils\Logs\Debug::dump^ array:2 [
+  0 => "long message"
+  1 => array:4 [
+    "desc" => "long"
+    "log" => true
+    "display" => true
+    "exit" => false
+  ]
+]
+Sfdump("sf-dump-1141669936")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractActionController.php at line 77 executed Application\Controller\IndexController->indexActionIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\AbstractController.php at line 18 executed Laminas\Mvc\Controller\AbstractActionController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1005156543")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Application\Controller\AbstractController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-192724300")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-955762055")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractController.php at line 103 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1561790356")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\DispatchListener.php at line 139 executed Laminas\Mvc\Controller\AbstractController->dispatch^ array:2 [
+  0 => "Laminas\ApiTools\ContentNegotiation\Request"
+  1 => "Laminas\Http\PhpEnvironment\Response"
+]
+Sfdump("sf-dump-2033878760")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Laminas\Mvc\DispatchListener->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1814407157")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-1106612535")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Application.php at line 331 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-917047498")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php at line 53 executed Laminas\Mvc\Application->runIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\index.php at line 1 executed include^ array:1 [
+  0 => "E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php"
+]
+Sfdump("sf-dump-1335289462")
+^ "long message"
+Sfdump("sf-dump-1224287472")
+
+
+2020-03-18T23:14:51+01:00 INFO (6): In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\IndexController.php at line 62 executed Utils\Logs\Debug::dump^ array:2 [
+  0 => "long message"
+  1 => array:4 [
+    "desc" => "long"
+    "log" => true
+    "display" => true
+    "exit" => false
+  ]
+]
+Sfdump("sf-dump-1173149832")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractActionController.php at line 77 executed Application\Controller\IndexController->indexActionIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\AbstractController.php at line 18 executed Laminas\Mvc\Controller\AbstractActionController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1656400702")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Application\Controller\AbstractController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1370982949")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-1225465521")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractController.php at line 103 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-145336433")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\DispatchListener.php at line 139 executed Laminas\Mvc\Controller\AbstractController->dispatch^ array:2 [
+  0 => "Laminas\ApiTools\ContentNegotiation\Request"
+  1 => "Laminas\Http\PhpEnvironment\Response"
+]
+Sfdump("sf-dump-88963680")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Laminas\Mvc\DispatchListener->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-930891313")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-971832029")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Application.php at line 331 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-119196393")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php at line 53 executed Laminas\Mvc\Application->runIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\index.php at line 1 executed include^ array:1 [
+  0 => "E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php"
+]
+Sfdump("sf-dump-247488782")
+^ "long message"
+Sfdump("sf-dump-517984537")
+
+
+2020-03-18T23:24:06+01:00 INFO (6): In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\IndexController.php at line 62 executed Utils\Logs\Debug::dump^ array:2 [
+  0 => "long message"
+  1 => array:4 [
+    "desc" => "long"
+    "log" => true
+    "display" => true
+    "exit" => false
+  ]
+]
+Sfdump("sf-dump-932253399")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractActionController.php at line 77 executed Application\Controller\IndexController->indexActionIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\AbstractController.php at line 18 executed Laminas\Mvc\Controller\AbstractActionController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1137339662")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Application\Controller\AbstractController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1727392658")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-610084492")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractController.php at line 103 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1834028593")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\DispatchListener.php at line 139 executed Laminas\Mvc\Controller\AbstractController->dispatch^ array:2 [
+  0 => "Laminas\ApiTools\ContentNegotiation\Request"
+  1 => "Laminas\Http\PhpEnvironment\Response"
+]
+Sfdump("sf-dump-1447452440")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Laminas\Mvc\DispatchListener->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1105501583")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-23377293")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Application.php at line 331 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1317677910")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php at line 53 executed Laminas\Mvc\Application->runIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\index.php at line 1 executed include^ array:1 [
+  0 => "E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php"
+]
+Sfdump("sf-dump-1690310539")
+^ "long message"
+Sfdump("sf-dump-1886430146")
+
+
+2020-03-18T23:24:40+01:00 INFO (6): In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\IndexController.php at line 62 executed Utils\Logs\Debug::dump^ array:2 [
+  0 => "long message"
+  1 => array:4 [
+    "desc" => "long"
+    "log" => true
+    "display" => true
+    "exit" => false
+  ]
+]
+Sfdump("sf-dump-954262085")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractActionController.php at line 77 executed Application\Controller\IndexController->indexActionIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\AbstractController.php at line 18 executed Laminas\Mvc\Controller\AbstractActionController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-937831500")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Application\Controller\AbstractController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1744284273")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-1999952678")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractController.php at line 103 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-429560972")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\DispatchListener.php at line 139 executed Laminas\Mvc\Controller\AbstractController->dispatch^ array:2 [
+  0 => "Laminas\ApiTools\ContentNegotiation\Request"
+  1 => "Laminas\Http\PhpEnvironment\Response"
+]
+Sfdump("sf-dump-1137246629")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Laminas\Mvc\DispatchListener->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-605214090")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-756528629")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Application.php at line 331 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-2067270414")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php at line 53 executed Laminas\Mvc\Application->runIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\index.php at line 1 executed include^ array:1 [
+  0 => "E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php"
+]
+Sfdump("sf-dump-1115853056")
+^ "long message"
+Sfdump("sf-dump-541319430")
+
+
+2020-03-18T23:45:41+01:00 INFO (6): In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\IndexController.php at line 62 executed Utils\Logs\Debug::dump^ array:2 [
+  0 => "long message"
+  1 => array:4 [
+    "desc" => "long"
+    "log" => true
+    "display" => true
+    "exit" => false
+  ]
+]
+Sfdump("sf-dump-926148886")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractActionController.php at line 77 executed Application\Controller\IndexController->indexActionIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\AbstractController.php at line 18 executed Laminas\Mvc\Controller\AbstractActionController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1362374728")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Application\Controller\AbstractController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-149124410")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-1831844608")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractController.php at line 103 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1059927076")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\DispatchListener.php at line 139 executed Laminas\Mvc\Controller\AbstractController->dispatch^ array:2 [
+  0 => "Laminas\ApiTools\ContentNegotiation\Request"
+  1 => "Laminas\Http\PhpEnvironment\Response"
+]
+Sfdump("sf-dump-1923591927")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Laminas\Mvc\DispatchListener->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1453560220")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-49742313")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Application.php at line 331 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1164310666")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php at line 53 executed Laminas\Mvc\Application->runIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\index.php at line 1 executed include^ array:1 [
+  0 => "E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php"
+]
+Sfdump("sf-dump-1177999337")
+^ "long message"
+Sfdump("sf-dump-833956800")
+
+
+2020-03-18T23:55:41+01:00 INFO (6): In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\IndexController.php at line 62 executed Utils\Logs\Debug::dump^ array:2 [
+  0 => "long message"
+  1 => array:4 [
+    "desc" => "long"
+    "log" => true
+    "display" => true
+    "exit" => false
+  ]
+]
+Sfdump("sf-dump-600757725")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractActionController.php at line 77 executed Application\Controller\IndexController->indexActionIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\AbstractController.php at line 18 executed Laminas\Mvc\Controller\AbstractActionController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-492097221")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Application\Controller\AbstractController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1973313279")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-1214395834")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractController.php at line 103 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1379526598")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\DispatchListener.php at line 139 executed Laminas\Mvc\Controller\AbstractController->dispatch^ array:2 [
+  0 => "Laminas\ApiTools\ContentNegotiation\Request"
+  1 => "Laminas\Http\PhpEnvironment\Response"
+]
+Sfdump("sf-dump-1243030719")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Laminas\Mvc\DispatchListener->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1373445344")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-1692988939")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Application.php at line 331 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1064870793")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php at line 53 executed Laminas\Mvc\Application->runIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\index.php at line 1 executed include^ array:1 [
+  0 => "E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php"
+]
+Sfdump("sf-dump-535603484")
+^ "long message"
+Sfdump("sf-dump-63324491")
+
+
+2020-03-19T20:35:33+01:00 INFO (6): In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\IndexController.php at line 62 executed Utils\Logs\Debug::dump^ array:2 [
+  0 => "long message"
+  1 => array:4 [
+    "desc" => "long"
+    "log" => true
+    "display" => true
+    "exit" => false
+  ]
+]
+Sfdump("sf-dump-633481744")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractActionController.php at line 77 executed Application\Controller\IndexController->indexActionIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\AbstractController.php at line 18 executed Laminas\Mvc\Controller\AbstractActionController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-660039115")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Application\Controller\AbstractController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-784136971")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-170655344")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractController.php at line 103 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-483977305")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\DispatchListener.php at line 139 executed Laminas\Mvc\Controller\AbstractController->dispatch^ array:2 [
+  0 => "Laminas\ApiTools\ContentNegotiation\Request"
+  1 => "Laminas\Http\PhpEnvironment\Response"
+]
+Sfdump("sf-dump-684558040")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Laminas\Mvc\DispatchListener->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-66116008")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-1329017440")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Application.php at line 331 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-392672541")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php at line 53 executed Laminas\Mvc\Application->runIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\index.php at line 1 executed include^ array:1 [
+  0 => "E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php"
+]
+Sfdump("sf-dump-877279408")
+^ "long message"
+Sfdump("sf-dump-1189261839")
+
+
+2020-03-19T20:43:45+01:00 INFO (6): In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\IndexController.php at line 62 executed Utils\Logs\Debug::dump^ array:2 [
+  0 => "long message"
+  1 => array:4 [
+    "desc" => "long"
+    "log" => true
+    "display" => true
+    "exit" => false
+  ]
+]
+Sfdump("sf-dump-765699757")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractActionController.php at line 77 executed Application\Controller\IndexController->indexActionIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\AbstractController.php at line 18 executed Laminas\Mvc\Controller\AbstractActionController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-948730905")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Application\Controller\AbstractController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1689058892")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-1413358323")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractController.php at line 103 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1430954073")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\DispatchListener.php at line 139 executed Laminas\Mvc\Controller\AbstractController->dispatch^ array:2 [
+  0 => "Laminas\ApiTools\ContentNegotiation\Request"
+  1 => "Laminas\Http\PhpEnvironment\Response"
+]
+Sfdump("sf-dump-920398060")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Laminas\Mvc\DispatchListener->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-677782356")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-949705884")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Application.php at line 331 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1457641573")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php at line 53 executed Laminas\Mvc\Application->runIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\index.php at line 1 executed include^ array:1 [
+  0 => "E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php"
+]
+Sfdump("sf-dump-328102396")
+^ "long message"
+Sfdump("sf-dump-266886731")
+
+
+2020-03-19T20:44:17+01:00 INFO (6): In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\IndexController.php at line 62 executed Utils\Logs\Debug::dump^ array:2 [
+  0 => "long message"
+  1 => array:4 [
+    "desc" => "long"
+    "log" => true
+    "display" => true
+    "exit" => false
+  ]
+]
+Sfdump("sf-dump-1429608637")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractActionController.php at line 77 executed Application\Controller\IndexController->indexActionIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\AbstractController.php at line 18 executed Laminas\Mvc\Controller\AbstractActionController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-961666386")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Application\Controller\AbstractController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1205348746")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-2134916871")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractController.php at line 103 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1691899308")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\DispatchListener.php at line 139 executed Laminas\Mvc\Controller\AbstractController->dispatch^ array:2 [
+  0 => "Laminas\ApiTools\ContentNegotiation\Request"
+  1 => "Laminas\Http\PhpEnvironment\Response"
+]
+Sfdump("sf-dump-1874147139")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Laminas\Mvc\DispatchListener->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-143109306")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-1143588072")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Application.php at line 331 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1283562398")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php at line 53 executed Laminas\Mvc\Application->runIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\index.php at line 1 executed include^ array:1 [
+  0 => "E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php"
+]
+Sfdump("sf-dump-2053815752")
+^ "long message"
+Sfdump("sf-dump-1312764719")
+
+
+2020-03-19T20:44:32+01:00 INFO (6): In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\IndexController.php at line 62 executed Utils\Logs\Debug::dump^ array:2 [
+  0 => "long message"
+  1 => array:4 [
+    "desc" => "long"
+    "log" => true
+    "display" => true
+    "exit" => false
+  ]
+]
+Sfdump("sf-dump-79841297")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractActionController.php at line 77 executed Application\Controller\IndexController->indexActionIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\AbstractController.php at line 18 executed Laminas\Mvc\Controller\AbstractActionController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1099004460")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Application\Controller\AbstractController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1616512052")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-999998646")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractController.php at line 103 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1146296898")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\DispatchListener.php at line 139 executed Laminas\Mvc\Controller\AbstractController->dispatch^ array:2 [
+  0 => "Laminas\ApiTools\ContentNegotiation\Request"
+  1 => "Laminas\Http\PhpEnvironment\Response"
+]
+Sfdump("sf-dump-1849782195")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Laminas\Mvc\DispatchListener->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1613689255")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-1789016699")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Application.php at line 331 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1905198586")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php at line 53 executed Laminas\Mvc\Application->runIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\index.php at line 1 executed include^ array:1 [
+  0 => "E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php"
+]
+Sfdump("sf-dump-680394249")
+^ "long message"
+Sfdump("sf-dump-376862839")
+
+
+2020-03-19T20:44:49+01:00 INFO (6): In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\IndexController.php at line 62 executed Utils\Logs\Debug::dump^ array:2 [
+  0 => "long message"
+  1 => array:4 [
+    "desc" => "long"
+    "log" => true
+    "display" => true
+    "exit" => false
+  ]
+]
+Sfdump("sf-dump-1714847585")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractActionController.php at line 77 executed Application\Controller\IndexController->indexActionIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\AbstractController.php at line 18 executed Laminas\Mvc\Controller\AbstractActionController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-995633361")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Application\Controller\AbstractController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-712396338")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-1147004540")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractController.php at line 103 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1916034049")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\DispatchListener.php at line 139 executed Laminas\Mvc\Controller\AbstractController->dispatch^ array:2 [
+  0 => "Laminas\ApiTools\ContentNegotiation\Request"
+  1 => "Laminas\Http\PhpEnvironment\Response"
+]
+Sfdump("sf-dump-487899513")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Laminas\Mvc\DispatchListener->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1477283322")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-647630884")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Application.php at line 331 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-906811844")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php at line 53 executed Laminas\Mvc\Application->runIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\index.php at line 1 executed include^ array:1 [
+  0 => "E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php"
+]
+Sfdump("sf-dump-1963168575")
+^ "long message"
+Sfdump("sf-dump-1552702450")
+
+
+2020-03-19T20:45:15+01:00 INFO (6): In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\IndexController.php at line 62 executed Utils\Logs\Debug::dump^ array:2 [
+  0 => "long message"
+  1 => array:4 [
+    "desc" => "long"
+    "log" => true
+    "display" => true
+    "exit" => false
+  ]
+]
+Sfdump("sf-dump-1833999626")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractActionController.php at line 77 executed Application\Controller\IndexController->indexActionIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\AbstractController.php at line 18 executed Laminas\Mvc\Controller\AbstractActionController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-2030425574")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Application\Controller\AbstractController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-529874464")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-2025243165")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractController.php at line 103 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1624326527")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\DispatchListener.php at line 139 executed Laminas\Mvc\Controller\AbstractController->dispatch^ array:2 [
+  0 => "Laminas\ApiTools\ContentNegotiation\Request"
+  1 => "Laminas\Http\PhpEnvironment\Response"
+]
+Sfdump("sf-dump-741630740")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Laminas\Mvc\DispatchListener->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1017484074")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-425534331")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Application.php at line 331 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-434647165")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php at line 53 executed Laminas\Mvc\Application->runIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\index.php at line 1 executed include^ array:1 [
+  0 => "E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php"
+]
+Sfdump("sf-dump-1397090082")
+^ "long message"
+Sfdump("sf-dump-2082929739")
+
+
+2020-03-19T20:45:20+01:00 INFO (6): In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\IndexController.php at line 62 executed Utils\Logs\Debug::dump^ array:2 [
+  0 => "long message"
+  1 => array:4 [
+    "desc" => "long"
+    "log" => true
+    "display" => true
+    "exit" => false
+  ]
+]
+Sfdump("sf-dump-1576421288")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractActionController.php at line 77 executed Application\Controller\IndexController->indexActionIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\AbstractController.php at line 18 executed Laminas\Mvc\Controller\AbstractActionController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1727095981")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Application\Controller\AbstractController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1583657580")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-91549782")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractController.php at line 103 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1032913614")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\DispatchListener.php at line 139 executed Laminas\Mvc\Controller\AbstractController->dispatch^ array:2 [
+  0 => "Laminas\ApiTools\ContentNegotiation\Request"
+  1 => "Laminas\Http\PhpEnvironment\Response"
+]
+Sfdump("sf-dump-1077868167")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Laminas\Mvc\DispatchListener->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-463991839")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-242237705")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Application.php at line 331 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-688085477")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php at line 53 executed Laminas\Mvc\Application->runIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\index.php at line 1 executed include^ array:1 [
+  0 => "E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php"
+]
+Sfdump("sf-dump-594629776")
+^ "long message"
+Sfdump("sf-dump-93833983")
+
+
+2020-03-19T20:46:20+01:00 INFO (6): In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\IndexController.php at line 62 executed Utils\Logs\Debug::dump^ array:2 [
+  0 => "long message"
+  1 => array:4 [
+    "desc" => "long"
+    "log" => true
+    "display" => true
+    "exit" => false
+  ]
+]
+Sfdump("sf-dump-1604065132")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractActionController.php at line 77 executed Application\Controller\IndexController->indexActionIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\AbstractController.php at line 18 executed Laminas\Mvc\Controller\AbstractActionController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-870494372")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Application\Controller\AbstractController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-220388898")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-446733039")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractController.php at line 103 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1659118654")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\DispatchListener.php at line 139 executed Laminas\Mvc\Controller\AbstractController->dispatch^ array:2 [
+  0 => "Laminas\ApiTools\ContentNegotiation\Request"
+  1 => "Laminas\Http\PhpEnvironment\Response"
+]
+Sfdump("sf-dump-1007778856")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Laminas\Mvc\DispatchListener->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1461291016")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-684557619")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Application.php at line 331 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-875420570")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php at line 53 executed Laminas\Mvc\Application->runIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\index.php at line 1 executed include^ array:1 [
+  0 => "E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php"
+]
+Sfdump("sf-dump-344233389")
+^ "long message"
+Sfdump("sf-dump-1065541352")
+
+
+2020-03-19T20:46:29+01:00 INFO (6): In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\IndexController.php at line 62 executed Utils\Logs\Debug::dump^ array:2 [
+  0 => "long message"
+  1 => array:4 [
+    "desc" => "long"
+    "log" => true
+    "display" => true
+    "exit" => false
+  ]
+]
+Sfdump("sf-dump-1828267884")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractActionController.php at line 77 executed Application\Controller\IndexController->indexActionIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\AbstractController.php at line 18 executed Laminas\Mvc\Controller\AbstractActionController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-753868792")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Application\Controller\AbstractController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1449537763")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-1553694799")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractController.php at line 103 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-825100566")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\DispatchListener.php at line 139 executed Laminas\Mvc\Controller\AbstractController->dispatch^ array:2 [
+  0 => "Laminas\ApiTools\ContentNegotiation\Request"
+  1 => "Laminas\Http\PhpEnvironment\Response"
+]
+Sfdump("sf-dump-821069273")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Laminas\Mvc\DispatchListener->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1660907950")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-1642963501")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Application.php at line 331 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1231785825")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php at line 53 executed Laminas\Mvc\Application->runIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\index.php at line 1 executed include^ array:1 [
+  0 => "E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php"
+]
+Sfdump("sf-dump-1499221044")
+^ "long message"
+Sfdump("sf-dump-1999405963")
+
+
+2020-03-19T20:47:34+01:00 INFO (6): In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\IndexController.php at line 62 executed Utils\Logs\Debug::dump^ array:2 [
+  0 => "long message"
+  1 => array:4 [
+    "desc" => "long"
+    "log" => true
+    "display" => true
+    "exit" => false
+  ]
+]
+Sfdump("sf-dump-1493233423")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractActionController.php at line 77 executed Application\Controller\IndexController->indexActionIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\AbstractController.php at line 18 executed Laminas\Mvc\Controller\AbstractActionController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1340348131")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Application\Controller\AbstractController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-436622018")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-1862733248")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractController.php at line 103 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1807631490")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\DispatchListener.php at line 139 executed Laminas\Mvc\Controller\AbstractController->dispatch^ array:2 [
+  0 => "Laminas\ApiTools\ContentNegotiation\Request"
+  1 => "Laminas\Http\PhpEnvironment\Response"
+]
+Sfdump("sf-dump-1138053641")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Laminas\Mvc\DispatchListener->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-586416031")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-1885586140")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Application.php at line 331 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-42294566")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php at line 53 executed Laminas\Mvc\Application->runIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\index.php at line 1 executed include^ array:1 [
+  0 => "E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php"
+]
+Sfdump("sf-dump-1460614549")
+^ "long message"
+Sfdump("sf-dump-718054005")
+
+
+2020-03-19T20:47:41+01:00 INFO (6): In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\IndexController.php at line 62 executed Utils\Logs\Debug::dump^ array:2 [
+  0 => "long message"
+  1 => array:4 [
+    "desc" => "long"
+    "log" => true
+    "display" => true
+    "exit" => false
+  ]
+]
+Sfdump("sf-dump-1555355153")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractActionController.php at line 77 executed Application\Controller\IndexController->indexActionIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\AbstractController.php at line 18 executed Laminas\Mvc\Controller\AbstractActionController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1767079753")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Application\Controller\AbstractController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1182156023")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-1128818498")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractController.php at line 103 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1814738030")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\DispatchListener.php at line 139 executed Laminas\Mvc\Controller\AbstractController->dispatch^ array:2 [
+  0 => "Laminas\ApiTools\ContentNegotiation\Request"
+  1 => "Laminas\Http\PhpEnvironment\Response"
+]
+Sfdump("sf-dump-2062358737")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Laminas\Mvc\DispatchListener->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-2140206056")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-1798290079")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Application.php at line 331 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1809379378")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php at line 53 executed Laminas\Mvc\Application->runIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\index.php at line 1 executed include^ array:1 [
+  0 => "E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php"
+]
+Sfdump("sf-dump-1839951127")
+^ "long message"
+Sfdump("sf-dump-381440715")
+
+
+2020-03-19T20:49:33+01:00 INFO (6): In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\IndexController.php at line 62 executed Utils\Logs\Debug::dump^ array:2 [
+  0 => "long message"
+  1 => array:4 [
+    "desc" => "long"
+    "log" => true
+    "display" => true
+    "exit" => false
+  ]
+]
+Sfdump("sf-dump-359753381")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractActionController.php at line 77 executed Application\Controller\IndexController->indexActionIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\AbstractController.php at line 18 executed Laminas\Mvc\Controller\AbstractActionController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-890599613")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Application\Controller\AbstractController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1248964917")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-1884460396")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractController.php at line 103 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-204247169")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\DispatchListener.php at line 139 executed Laminas\Mvc\Controller\AbstractController->dispatch^ array:2 [
+  0 => "Laminas\ApiTools\ContentNegotiation\Request"
+  1 => "Laminas\Http\PhpEnvironment\Response"
+]
+Sfdump("sf-dump-1810571902")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Laminas\Mvc\DispatchListener->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1240138164")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-1192165443")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Application.php at line 331 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-127258407")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php at line 53 executed Laminas\Mvc\Application->runIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\index.php at line 1 executed include^ array:1 [
+  0 => "E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php"
+]
+Sfdump("sf-dump-1194696631")
+^ "long message"
+Sfdump("sf-dump-558095281")
+
+
+2020-03-19T20:52:37+01:00 INFO (6): In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\IndexController.php at line 62 executed Utils\Logs\Debug::dump^ array:2 [
+  0 => "long message"
+  1 => array:4 [
+    "desc" => "long"
+    "log" => true
+    "display" => true
+    "exit" => false
+  ]
+]
+Sfdump("sf-dump-783606976")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractActionController.php at line 77 executed Application\Controller\IndexController->indexActionIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\AbstractController.php at line 18 executed Laminas\Mvc\Controller\AbstractActionController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-252694791")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Application\Controller\AbstractController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1074474878")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-985711633")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractController.php at line 103 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1849244261")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\DispatchListener.php at line 139 executed Laminas\Mvc\Controller\AbstractController->dispatch^ array:2 [
+  0 => "Laminas\ApiTools\ContentNegotiation\Request"
+  1 => "Laminas\Http\PhpEnvironment\Response"
+]
+Sfdump("sf-dump-1414570227")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Laminas\Mvc\DispatchListener->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1840154635")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-1641697676")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Application.php at line 331 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-614552681")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php at line 53 executed Laminas\Mvc\Application->runIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\index.php at line 1 executed include^ array:1 [
+  0 => "E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php"
+]
+Sfdump("sf-dump-1163928628")
+^ "long message"
+Sfdump("sf-dump-1366767803")
+
+
+2020-03-19T20:52:52+01:00 INFO (6): In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\IndexController.php at line 62 executed Utils\Logs\Debug::dump^ array:2 [
+  0 => "long message"
+  1 => array:4 [
+    "desc" => "long"
+    "log" => true
+    "display" => true
+    "exit" => false
+  ]
+]
+Sfdump("sf-dump-1249984127")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractActionController.php at line 77 executed Application\Controller\IndexController->indexActionIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\AbstractController.php at line 18 executed Laminas\Mvc\Controller\AbstractActionController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1091278094")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Application\Controller\AbstractController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1225538173")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-1839429039")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractController.php at line 103 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1375480751")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\DispatchListener.php at line 139 executed Laminas\Mvc\Controller\AbstractController->dispatch^ array:2 [
+  0 => "Laminas\ApiTools\ContentNegotiation\Request"
+  1 => "Laminas\Http\PhpEnvironment\Response"
+]
+Sfdump("sf-dump-615609510")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Laminas\Mvc\DispatchListener->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-700230868")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-786051432")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Application.php at line 331 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1944425011")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php at line 53 executed Laminas\Mvc\Application->runIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\index.php at line 1 executed include^ array:1 [
+  0 => "E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php"
+]
+Sfdump("sf-dump-211336540")
+^ "long message"
+Sfdump("sf-dump-1183450720")
+
+
+2020-03-19T20:53:12+01:00 INFO (6): In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\IndexController.php at line 62 executed Utils\Logs\Debug::dump^ array:2 [
+  0 => "long message"
+  1 => array:4 [
+    "desc" => "long"
+    "log" => true
+    "display" => true
+    "exit" => false
+  ]
+]
+Sfdump("sf-dump-127984478")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractActionController.php at line 77 executed Application\Controller\IndexController->indexActionIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\AbstractController.php at line 18 executed Laminas\Mvc\Controller\AbstractActionController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-954362893")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Application\Controller\AbstractController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-2061053310")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-90766018")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractController.php at line 103 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-71164766")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\DispatchListener.php at line 139 executed Laminas\Mvc\Controller\AbstractController->dispatch^ array:2 [
+  0 => "Laminas\ApiTools\ContentNegotiation\Request"
+  1 => "Laminas\Http\PhpEnvironment\Response"
+]
+Sfdump("sf-dump-1529083314")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Laminas\Mvc\DispatchListener->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1487201283")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-206308876")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Application.php at line 331 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-113044737")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php at line 53 executed Laminas\Mvc\Application->runIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\index.php at line 1 executed include^ array:1 [
+  0 => "E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php"
+]
+Sfdump("sf-dump-1014207469")
+^ "long message"
+Sfdump("sf-dump-1313212392")
+
+
+2020-03-19T21:12:39+01:00 INFO (6): In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\IndexController.php at line 62 executed Utils\Logs\Debug::dump^ array:2 [
+  0 => "long message"
+  1 => array:4 [
+    "desc" => "long"
+    "log" => true
+    "display" => true
+    "exit" => false
+  ]
+]
+Sfdump("sf-dump-216362323")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractActionController.php at line 77 executed Application\Controller\IndexController->indexActionIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\AbstractController.php at line 18 executed Laminas\Mvc\Controller\AbstractActionController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1700067031")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Application\Controller\AbstractController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-728658180")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-173487224")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractController.php at line 103 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-805249768")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\DispatchListener.php at line 139 executed Laminas\Mvc\Controller\AbstractController->dispatch^ array:2 [
+  0 => "Laminas\ApiTools\ContentNegotiation\Request"
+  1 => "Laminas\Http\PhpEnvironment\Response"
+]
+Sfdump("sf-dump-1967931303")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Laminas\Mvc\DispatchListener->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-2095675065")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-773477939")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Application.php at line 331 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1465691521")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php at line 53 executed Laminas\Mvc\Application->runIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\index.php at line 1 executed include^ array:1 [
+  0 => "E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php"
+]
+Sfdump("sf-dump-364669643")
+^ "long message"
+Sfdump("sf-dump-540806932")
+
+
+2020-03-19T21:12:47+01:00 INFO (6): In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\IndexController.php at line 62 executed Utils\Logs\Debug::dump^ array:2 [
+  0 => "long message"
+  1 => array:4 [
+    "desc" => "long"
+    "log" => true
+    "display" => true
+    "exit" => false
+  ]
+]
+Sfdump("sf-dump-342878052")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractActionController.php at line 77 executed Application\Controller\IndexController->indexActionIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\AbstractController.php at line 18 executed Laminas\Mvc\Controller\AbstractActionController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1009289946")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Application\Controller\AbstractController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-242383842")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-1049883865")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractController.php at line 103 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1164957368")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\DispatchListener.php at line 139 executed Laminas\Mvc\Controller\AbstractController->dispatch^ array:2 [
+  0 => "Laminas\ApiTools\ContentNegotiation\Request"
+  1 => "Laminas\Http\PhpEnvironment\Response"
+]
+Sfdump("sf-dump-336702115")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Laminas\Mvc\DispatchListener->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1726611425")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-974468779")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Application.php at line 331 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1484895112")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php at line 53 executed Laminas\Mvc\Application->runIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\index.php at line 1 executed include^ array:1 [
+  0 => "E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php"
+]
+Sfdump("sf-dump-1174287601")
+^ "long message"
+Sfdump("sf-dump-1859218655")
+
+
+2020-03-19T21:14:26+01:00 INFO (6): In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\IndexController.php at line 62 executed Utils\Logs\Debug::dump^ array:2 [
+  0 => "long message"
+  1 => array:4 [
+    "desc" => "long"
+    "log" => true
+    "display" => true
+    "exit" => false
+  ]
+]
+Sfdump("sf-dump-1085938960")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractActionController.php at line 77 executed Application\Controller\IndexController->indexActionIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\AbstractController.php at line 18 executed Laminas\Mvc\Controller\AbstractActionController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-633929795")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Application\Controller\AbstractController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1143739525")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-336962295")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractController.php at line 103 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-145518322")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\DispatchListener.php at line 139 executed Laminas\Mvc\Controller\AbstractController->dispatch^ array:2 [
+  0 => "Laminas\ApiTools\ContentNegotiation\Request"
+  1 => "Laminas\Http\PhpEnvironment\Response"
+]
+Sfdump("sf-dump-1904908277")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Laminas\Mvc\DispatchListener->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1571102659")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-171209861")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Application.php at line 331 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-2016245969")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php at line 53 executed Laminas\Mvc\Application->runIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\index.php at line 1 executed include^ array:1 [
+  0 => "E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php"
+]
+Sfdump("sf-dump-1655887742")
+^ "long message"
+Sfdump("sf-dump-704044087")
+
+
+2020-03-19T21:14:34+01:00 INFO (6): In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\IndexController.php at line 62 executed Utils\Logs\Debug::dump^ array:2 [
+  0 => "long message"
+  1 => array:4 [
+    "desc" => "long"
+    "log" => true
+    "display" => true
+    "exit" => false
+  ]
+]
+Sfdump("sf-dump-1779533523")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractActionController.php at line 77 executed Application\Controller\IndexController->indexActionIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\AbstractController.php at line 18 executed Laminas\Mvc\Controller\AbstractActionController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-914004605")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Application\Controller\AbstractController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-453691269")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-1758401979")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractController.php at line 103 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-845930520")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\DispatchListener.php at line 139 executed Laminas\Mvc\Controller\AbstractController->dispatch^ array:2 [
+  0 => "Laminas\ApiTools\ContentNegotiation\Request"
+  1 => "Laminas\Http\PhpEnvironment\Response"
+]
+Sfdump("sf-dump-1015634793")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Laminas\Mvc\DispatchListener->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1215686849")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-352947539")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Application.php at line 331 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-369782098")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php at line 53 executed Laminas\Mvc\Application->runIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\index.php at line 1 executed include^ array:1 [
+  0 => "E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php"
+]
+Sfdump("sf-dump-1832409968")
+^ "long message"
+Sfdump("sf-dump-1564046416")
+
+
+2020-03-19T21:14:43+01:00 INFO (6): In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\IndexController.php at line 62 executed Utils\Logs\Debug::dump^ array:2 [
+  0 => "long message"
+  1 => array:4 [
+    "desc" => "long"
+    "log" => true
+    "display" => true
+    "exit" => false
+  ]
+]
+Sfdump("sf-dump-593694485")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractActionController.php at line 77 executed Application\Controller\IndexController->indexActionIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\AbstractController.php at line 18 executed Laminas\Mvc\Controller\AbstractActionController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-27395573")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Application\Controller\AbstractController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1352866852")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-2108370487")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractController.php at line 103 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-118315890")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\DispatchListener.php at line 139 executed Laminas\Mvc\Controller\AbstractController->dispatch^ array:2 [
+  0 => "Laminas\ApiTools\ContentNegotiation\Request"
+  1 => "Laminas\Http\PhpEnvironment\Response"
+]
+Sfdump("sf-dump-1691440980")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Laminas\Mvc\DispatchListener->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1801151142")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-165924837")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Application.php at line 331 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-370622912")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php at line 53 executed Laminas\Mvc\Application->runIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\index.php at line 1 executed include^ array:1 [
+  0 => "E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php"
+]
+Sfdump("sf-dump-1957023185")
+^ "long message"
+Sfdump("sf-dump-938028669")
+
+
+2020-03-19T21:15:57+01:00 INFO (6): In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\IndexController.php at line 62 executed Utils\Logs\Debug::dump^ array:2 [
+  0 => "long message"
+  1 => array:4 [
+    "desc" => "long"
+    "log" => true
+    "display" => true
+    "exit" => false
+  ]
+]
+Sfdump("sf-dump-948535850")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractActionController.php at line 77 executed Application\Controller\IndexController->indexActionIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\AbstractController.php at line 18 executed Laminas\Mvc\Controller\AbstractActionController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-39653123")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Application\Controller\AbstractController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1191182689")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-550779253")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractController.php at line 103 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1657210061")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\DispatchListener.php at line 139 executed Laminas\Mvc\Controller\AbstractController->dispatch^ array:2 [
+  0 => "Laminas\ApiTools\ContentNegotiation\Request"
+  1 => "Laminas\Http\PhpEnvironment\Response"
+]
+Sfdump("sf-dump-1517678213")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Laminas\Mvc\DispatchListener->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1430323355")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-67803872")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Application.php at line 331 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1803492819")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php at line 53 executed Laminas\Mvc\Application->runIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\index.php at line 1 executed include^ array:1 [
+  0 => "E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php"
+]
+Sfdump("sf-dump-789417349")
+^ "long message"
+Sfdump("sf-dump-1718550922")
+
+
+2020-03-19T21:17:04+01:00 INFO (6): In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\IndexController.php at line 62 executed Utils\Logs\Debug::dump^ array:2 [
+  0 => "long message"
+  1 => array:4 [
+    "desc" => "long"
+    "log" => true
+    "display" => true
+    "exit" => false
+  ]
+]
+Sfdump("sf-dump-1580698795")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractActionController.php at line 77 executed Application\Controller\IndexController->indexActionIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\AbstractController.php at line 18 executed Laminas\Mvc\Controller\AbstractActionController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1101242759")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Application\Controller\AbstractController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-613340436")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-1182809086")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractController.php at line 103 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-2138861414")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\DispatchListener.php at line 139 executed Laminas\Mvc\Controller\AbstractController->dispatch^ array:2 [
+  0 => "Laminas\ApiTools\ContentNegotiation\Request"
+  1 => "Laminas\Http\PhpEnvironment\Response"
+]
+Sfdump("sf-dump-1985489927")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Laminas\Mvc\DispatchListener->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1073961902")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-49564867")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Application.php at line 331 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-184559087")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php at line 53 executed Laminas\Mvc\Application->runIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\index.php at line 1 executed include^ array:1 [
+  0 => "E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php"
+]
+Sfdump("sf-dump-1635042295")
+^ "long message"
+Sfdump("sf-dump-656036403")
+
+
+2020-03-19T21:19:36+01:00 INFO (6): In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\IndexController.php at line 62 executed Utils\Logs\Debug::dump^ array:2 [
+  0 => "long message"
+  1 => array:4 [
+    "desc" => "long"
+    "log" => true
+    "display" => true
+    "exit" => false
+  ]
+]
+Sfdump("sf-dump-1261394557")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractActionController.php at line 77 executed Application\Controller\IndexController->indexActionIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\AbstractController.php at line 18 executed Laminas\Mvc\Controller\AbstractActionController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-157151675")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Application\Controller\AbstractController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1128943510")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-902051533")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractController.php at line 103 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1539236770")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\DispatchListener.php at line 139 executed Laminas\Mvc\Controller\AbstractController->dispatch^ array:2 [
+  0 => "Laminas\ApiTools\ContentNegotiation\Request"
+  1 => "Laminas\Http\PhpEnvironment\Response"
+]
+Sfdump("sf-dump-1908742072")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Laminas\Mvc\DispatchListener->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1668886510")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-1022043862")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Application.php at line 331 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1915340350")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php at line 53 executed Laminas\Mvc\Application->runIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\index.php at line 1 executed include^ array:1 [
+  0 => "E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php"
+]
+Sfdump("sf-dump-1658329153")
+^ "long message"
+Sfdump("sf-dump-2146980971")
+
+
+2020-03-19T21:19:46+01:00 INFO (6): In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\IndexController.php at line 62 executed Utils\Logs\Debug::dump^ array:2 [
+  0 => "long message"
+  1 => array:4 [
+    "desc" => "long"
+    "log" => true
+    "display" => true
+    "exit" => false
+  ]
+]
+Sfdump("sf-dump-951828137")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractActionController.php at line 77 executed Application\Controller\IndexController->indexActionIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\AbstractController.php at line 18 executed Laminas\Mvc\Controller\AbstractActionController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1189556817")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Application\Controller\AbstractController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1602975166")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-757488485")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractController.php at line 103 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1189380615")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\DispatchListener.php at line 139 executed Laminas\Mvc\Controller\AbstractController->dispatch^ array:2 [
+  0 => "Laminas\ApiTools\ContentNegotiation\Request"
+  1 => "Laminas\Http\PhpEnvironment\Response"
+]
+Sfdump("sf-dump-1777943753")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Laminas\Mvc\DispatchListener->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1255163694")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-612852671")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Application.php at line 331 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-121929706")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php at line 53 executed Laminas\Mvc\Application->runIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\index.php at line 1 executed include^ array:1 [
+  0 => "E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php"
+]
+Sfdump("sf-dump-1251011843")
+^ "long message"
+Sfdump("sf-dump-1524576072")
+
+
+2020-03-19T21:21:09+01:00 INFO (6): In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\IndexController.php at line 62 executed Utils\Logs\Debug::dump^ array:2 [
+  0 => "long message"
+  1 => array:4 [
+    "desc" => "long"
+    "log" => true
+    "display" => true
+    "exit" => false
+  ]
+]
+Sfdump("sf-dump-545952835")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractActionController.php at line 77 executed Application\Controller\IndexController->indexActionIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\AbstractController.php at line 18 executed Laminas\Mvc\Controller\AbstractActionController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1044028829")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Application\Controller\AbstractController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1843358181")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-578451196")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractController.php at line 103 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1229189169")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\DispatchListener.php at line 139 executed Laminas\Mvc\Controller\AbstractController->dispatch^ array:2 [
+  0 => "Laminas\ApiTools\ContentNegotiation\Request"
+  1 => "Laminas\Http\PhpEnvironment\Response"
+]
+Sfdump("sf-dump-1981254025")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Laminas\Mvc\DispatchListener->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-2145284370")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-1363090620")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Application.php at line 331 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-537275093")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php at line 53 executed Laminas\Mvc\Application->runIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\index.php at line 1 executed include^ array:1 [
+  0 => "E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php"
+]
+Sfdump("sf-dump-1501252909")
+^ "long message"
+Sfdump("sf-dump-175084933")
+
+
+2020-03-21T19:29:28+01:00 INFO (6): In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\IndexController.php at line 62 executed Utils\Logs\Debug::dump^ array:2 [
+  0 => "long message"
+  1 => array:4 [
+    "desc" => "long"
+    "log" => true
+    "display" => true
+    "exit" => false
+  ]
+]
+Sfdump("sf-dump-1648800084")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractActionController.php at line 77 executed Application\Controller\IndexController->indexActionIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\AbstractController.php at line 18 executed Laminas\Mvc\Controller\AbstractActionController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1595486369")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Application\Controller\AbstractController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1017760676")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-1163037723")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractController.php at line 103 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1740224817")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\DispatchListener.php at line 139 executed Laminas\Mvc\Controller\AbstractController->dispatch^ array:2 [
+  0 => "Laminas\ApiTools\ContentNegotiation\Request"
+  1 => "Laminas\Http\PhpEnvironment\Response"
+]
+Sfdump("sf-dump-1229667501")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Laminas\Mvc\DispatchListener->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-805830448")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-237186615")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Application.php at line 331 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-242418271")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php at line 53 executed Laminas\Mvc\Application->runIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\index.php at line 1 executed include^ array:1 [
+  0 => "E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php"
+]
+Sfdump("sf-dump-1993636949")
+^ "long message"
+Sfdump("sf-dump-89014309")
+
+
+2020-03-21T19:48:51+01:00 INFO (6): In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\IndexController.php at line 62 executed Utils\Logs\Debug::dump^ array:2 [
+  0 => "long message"
+  1 => array:4 [
+    "desc" => "long"
+    "log" => true
+    "display" => true
+    "exit" => false
+  ]
+]
+Sfdump("sf-dump-974282965")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractActionController.php at line 77 executed Application\Controller\IndexController->indexActionIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\module\Application\src\Controller\AbstractController.php at line 18 executed Laminas\Mvc\Controller\AbstractActionController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-419581207")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Application\Controller\AbstractController->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1437459579")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-1087486470")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Controller\AbstractController.php at line 103 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-188536737")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\DispatchListener.php at line 139 executed Laminas\Mvc\Controller\AbstractController->dispatch^ array:2 [
+  0 => "Laminas\ApiTools\ContentNegotiation\Request"
+  1 => "Laminas\Http\PhpEnvironment\Response"
+]
+Sfdump("sf-dump-2092378142")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 321 executed Laminas\Mvc\DispatchListener->onDispatch^ array:1 [
+  0 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1236088922")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-eventmanager\src\EventManager.php at line 178 executed Laminas\EventManager\EventManager->triggerListeners^ array:2 [
+  0 => "Laminas\Mvc\MvcEvent"
+  1 => "Closure"
+]
+Sfdump("sf-dump-830687510")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\vendor\laminas\laminas-mvc\src\Application.php at line 331 executed Laminas\EventManager\EventManager->triggerEventUntil^ array:2 [
+  0 => "Closure"
+  1 => "Laminas\Mvc\MvcEvent"
+]
+Sfdump("sf-dump-1323562541")
+In file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php at line 53 executed Laminas\Mvc\Application->runIn file E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\index.php at line 1 executed include^ array:1 [
+  0 => "E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\public\index.php"
+]
+Sfdump("sf-dump-1451469258")
+^ "long message"
+Sfdump("sf-dump-76862555")
+
+
