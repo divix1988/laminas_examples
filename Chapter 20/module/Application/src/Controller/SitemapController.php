@@ -36,7 +36,7 @@ class SitemapController extends AbstractController
 
         foreach ($articles as $article) {
             $page = new \Laminas\Navigation\Page\Mvc([
-                'route' => 'articles',
+                'route' => 'news',
                 'action' => 'show',
                 'params' => ['id' => $article['url']],
                 'priority' => '1.0'

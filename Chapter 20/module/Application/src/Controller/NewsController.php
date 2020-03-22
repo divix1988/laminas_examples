@@ -2,7 +2,7 @@
 
 namespace Application\Controller;
 
-class ArticlesController extends AbstractController
+class NewsController extends AbstractController
 {
     private $cmsObject;
 

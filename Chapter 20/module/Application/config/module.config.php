@@ -139,12 +139,12 @@ return [
                     ],
 		],
             ],
-            'articles' => [
+            'news' => [
                 'type' => Segment::class,
                 'options' => [
-                    'route' => '/articles[/:action][/:id]',
+                    'route' => '/news[/:action][/:id]',
                     'defaults' => [
-                        'controller' => Controller\ArticlesController::class,
+                        'controller' => Controller\NewsController::class,
                         'action' => 'index',
                     ],
                 ],
@@ -207,8 +207,8 @@ return [
                     $sm->get(Model\Admin\ContentManager::class)
                 );
             },
-            Controller\ArticlesController::class => function($sm) {
-                return new Controller\ArticlesController(
+            Controller\NewsController::class => function($sm) {
+                return new Controller\NewsController(
                     $sm->get(Model\Admin\ContentManager::class)
                 );
             },
