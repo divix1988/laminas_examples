@@ -83,7 +83,7 @@ class UserInfoFieldset extends Fieldset implements InputFilterProviderInterface
                 'required' => true
             ),
             'comments' => array(
-                'required' => true
+                'required' => false
             )
 	);
     }
