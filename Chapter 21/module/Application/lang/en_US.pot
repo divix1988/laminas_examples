@@ -1,0 +1,8 @@
+msgid "abc"
+msgstr ""
+
+msgid "abc_param"
+msgstr ""
+
+msgid "abc_params"
+msgstr ""

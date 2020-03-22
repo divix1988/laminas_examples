@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit colors="true">
+    <testsuites>
+        <testsuite name="laminasMvc">
+            <directory>./module/Application/test</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist addUncoveredFilesFromWhitelist="true">
+            <directory suffix=".php">./module/*/src</directory>
+        </whitelist>
+    </filter>
+    <php>
+        <const name="APPLICATION_PATH" value="E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\" />
+        <server name="APPLICATION_ENV" value="tests" />
+    </php>
+</phpunit>

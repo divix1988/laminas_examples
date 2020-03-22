@@ -1,0 +1,11 @@
+<section class="page-content">
+    <div class="container jumbotron">
+        <h1 class="zf-green">Articles</h1>
+        
+        <?php foreach ($this->pages as $page): ?>
+            <a href="<?= $this->url('news', ['action' => 'show', 'id' => $page['url']]) ?>">
+                <?= $page['name'] ?>
+            </a><br />
+         <?php endforeach; ?>
+    </div>
+</section>
