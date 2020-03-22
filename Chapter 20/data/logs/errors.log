@@ -1,0 +1,2 @@
+2020-03-18T23:42:51+01:00 NOTICE (5): Attempting to quote a value without specific driver level support can introduce security vulnerabilities in a production environment. {"errno":1024,"file":"E:\\RZECZY_ADAMA\\_XAMPP\\xampp-7.4\\htdocs\\laminas_app\\vendor\\laminas\\laminas-db\\src\\Adapter\\Platform\\Sql92.php","line":28}
+2020-03-19T20:46:20+01:00 WARN (4): sprintf(): Too few arguments {"errno":2,"file":"E:\\RZECZY_ADAMA\\_XAMPP\\xampp-7.4\\htdocs\\laminas_app\\module\\Application\\view\\application\\index\\index.phtml","line":18}
