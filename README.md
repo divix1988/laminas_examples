@@ -4,3 +4,4 @@ Available at: [WORK IN PROGRESS, release date April 2020]
 
 Please raise any issues found in this book by creating a New Issue in the Issues tab.
 
+![alt text](http://divix.home.pl/laminas/laminas_cover_v2.png)
