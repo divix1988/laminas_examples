@@ -125,8 +125,14 @@ class Module
     {
         $serviceManager = $e->getApplication()->getServiceManager();
         $session = $serviceManager->get(SessionManager::class);
-        $session->start();
-	$container = new Session\Container('initialized');
+
+        try {
+            $session->start();
+            $container = new Session\Container('initialized');
+        } catch (\Laminas\Session\Exception\RuntimeException $e) {
+            //session has expired
+            return;
+        }
 
 	//let’s check if our session is not already created (for the guest or user)
 	if (isset($container->init)) {
