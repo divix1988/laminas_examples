@@ -66,7 +66,7 @@ class BootstrapFormRow extends \Laminas\Form\View\Helper\FormRow
             $element->setAttribute('placeholder', $label);
         }
 
-        if ($element instanceof Submit) {
+        if ($element instanceof Submit || $element instanceof Button) {
             $element->setAttribute('class', 'btn btn-secondary');
         } elseif ($element instanceof Checkbox || $element instanceof MultiCheckbox) {
             $classString = 'form-check-input';
@@ -187,7 +187,7 @@ class BootstrapFormRow extends \Laminas\Form\View\Helper\FormRow
 
             $markup .= '</div>';
 	} else {
-            if ($labelPosition === BootstrapForm::MODE_HORIZONTAL && $element instanceof Submit) {
+            if ($labelPosition === BootstrapForm::MODE_HORIZONTAL && ($element instanceof Submit || $element instanceof Button)) {
                 $elementString = '<div class="form-group"><div class="col-sm-10 col-sm-offset-2">'.$elementString.'</div></div>';
             }
             if ($this->renderErrors) {
