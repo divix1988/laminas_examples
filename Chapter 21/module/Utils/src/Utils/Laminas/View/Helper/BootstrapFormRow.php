@@ -133,7 +133,7 @@ class BootstrapFormRow extends \Laminas\Form\View\Helper\FormRow
                     $extraMainLabelClassLabel,
                     $label,
                     $nestedDivClass,
-                    $classMapping[$type],
+                    isset($classMapping[$type]) ? $classMapping[$type] : '',
                     $extraMultiClassInput,
                     $elementString
                 );
