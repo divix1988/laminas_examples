@@ -45,7 +45,7 @@ class RegisterController extends AbstractController {
                 $userId = $this->usersModel->save($rowset);
                 $rowset->setId($userId);
                 //user logging
-                $this->securityAuth->authenticate(
+                $this->securityAuth->auth(
                     $rowset->getEmail(),
                     $formData[$form::FIELDSET_LOGIN][Form\UserLoginFieldset::ELEMENT_PASSWORD]
                 );

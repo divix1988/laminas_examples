@@ -1,6 +1,6 @@
 <?php if ($this->pageCount): ?>
     <div class="paginationControl">
-    <!-- Previous strona -->
+    <!-- Previous page -->
     <?php if (isset($this->previous)): ?>
       <a href="<?= $this->url($this->route, ['page' => $this->previous]); ?>">
         &lt; Previous
@@ -9,7 +9,7 @@
       <span class="disabled">&lt; Previous</span> |
     <?php endif; ?>
 
-    <!-- Numery stron -->
+    <!-- Page numbers -->
     <?php foreach ($this->pagesInRange as $page): ?>
       <?php if ($page != $this->current): ?>
         <a href="<?= $this->url($this->route, ['page' => $page]); ?>">
@@ -20,7 +20,7 @@
       <?php endif; ?>
     <?php endforeach; ?>
 
-    <!-- Next strona -->
+    <!-- Next page -->
     <?php if (isset($this->next)): ?>
       <a href="<?= $this->url($this->route, ['page' => $this->next]); ?>">
         Next &gt;

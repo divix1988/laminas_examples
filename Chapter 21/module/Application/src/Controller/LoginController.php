@@ -68,9 +68,9 @@ class LoginController extends AbstractController
         }
 
         if ($sessionUser->details->getRole() === 'admin' || $sessionUser->details->getRole() === 'super_admin') {
-            $this->redirect()->toRoute('admin', ['controller' => 'IndexController', 'action' => 'index']);
+            return $this->redirect()->toRoute('admin', ['controller' => 'IndexController', 'action' => 'index']);
         } else if($sessionUser->details->getRole() === 'user') {
-            $this->redirect()->toRoute('user');
+            return $this->redirect()->toRoute('user');
         }
     }
 

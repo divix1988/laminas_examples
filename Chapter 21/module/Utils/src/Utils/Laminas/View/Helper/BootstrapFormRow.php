@@ -14,7 +14,7 @@ use Laminas\Form\LabelAwareInterface;
 
 class BootstrapFormRow extends \Laminas\Form\View\Helper\FormRow
 {
-    public function render(ElementInterface $element, $labelPosition = null)
+    public function render(ElementInterface $element, ?string $labelPosition = null): string
     {
         $escapeHtmlHelper = $this->getEscapeHtmlHelper();
         $labelHelper = $this->getLabelHelper();
@@ -66,7 +66,7 @@ class BootstrapFormRow extends \Laminas\Form\View\Helper\FormRow
             $element->setAttribute('placeholder', $label);
         }
 
-        if ($element instanceof Submit || $element instanceof Button) {
+        if ($element instanceof Submit) {
             $element->setAttribute('class', 'btn btn-secondary');
         } elseif ($element instanceof Checkbox || $element instanceof MultiCheckbox) {
             $classString = 'form-check-input';
@@ -187,7 +187,7 @@ class BootstrapFormRow extends \Laminas\Form\View\Helper\FormRow
 
             $markup .= '</div>';
 	} else {
-            if ($labelPosition === BootstrapForm::MODE_HORIZONTAL && ($element instanceof Submit || $element instanceof Button)) {
+            if ($labelPosition === BootstrapForm::MODE_HORIZONTAL && $element instanceof Submit) {
                 $elementString = '<div class="form-group"><div class="col-sm-10 col-sm-offset-2">'.$elementString.'</div></div>';
             }
             if ($this->renderErrors) {
@@ -199,7 +199,7 @@ class BootstrapFormRow extends \Laminas\Form\View\Helper\FormRow
 	return $markup;
     }
 
-    public function getInputErrorClass() {
+    public function getInputErrorClass(): string {
         return 'has-error';
     }
 }

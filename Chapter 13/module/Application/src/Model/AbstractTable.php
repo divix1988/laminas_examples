@@ -29,6 +29,7 @@ class AbstractTable
                         'ttl' => 600
                     ]
                 ],
+                // store database rows on filesystem so we need to serialize them
                 'plugins' => ['serializer'],
             ]);
             Paginator::setCache(self::$paginatorCache);

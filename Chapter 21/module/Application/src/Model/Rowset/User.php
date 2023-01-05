@@ -10,7 +10,7 @@ use Laminas\InputFilter\InputFilterAwareInterface;
 use Laminas\InputFilter\InputFilterInterface;
 use Laminas\Validator\StringLength;
 
-class User extends AbstractModel implements InputFilterAwareInterface, \ZfcRbac\Identity\IdentityInterface
+class User extends AbstractModel implements InputFilterAwareInterface, \LmcRbacMvc\Identity\IdentityInterface
 {
     protected $inputFilter;
     protected $username;

@@ -7,6 +7,7 @@ use Application\Model\Rowset\AbstractModel;
 use Laminas\Paginator\Adapter\DbSelect;
 use Laminas\Paginator\Paginator;
 use Laminas\Cache\StorageFactory;
+use Laminas\Cache\Service\StorageAdapterFactoryInterface;
 
 class AbstractTable
 {
@@ -30,6 +31,7 @@ class AbstractTable
                         'ttl' => 600
                     ]
                 ],
+                // store database rows on filesystem so we need to serialize them
                 'plugins' => ['serializer'],
             ]);
             Paginator::setCache(self::$paginatorCache);

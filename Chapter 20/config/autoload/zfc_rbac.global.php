@@ -3,13 +3,13 @@
 return [
     'zfc_rbac' => [
         'guards' => [
-            \ZfcRbac\Guard\RouteGuard::class => [
+            \LmcRbacMvc\Guard\RouteGuard::class => [
                 'admin*' => ['admin', 'super_admin']
             ]
         ],
 
         'role_provider' => [
-            'ZfcRbac\Role\InMemoryRoleProvider' => [
+            'LmcRbacMvc\Role\InMemoryRoleProvider' => [
                 'super_admin' => [
                     'children' => ['admin'],
                     'permissions' => ['deleteAll']

@@ -23,13 +23,13 @@ class BootstrapForm extends \Laminas\View\Helper\AbstractHelper
         return $this->render($form, $mode);
     }
 
-    public function render(FormInterface $form, $mode = self::MODE_VERTICAL)
+    public function render(FormInterface $form, ?string $mode = self::MODE_VERTICAL): string
     {
         if (method_exists($form, 'prepare')) {
             $form->prepare();
         }
         $formContent = '';
-        $existingClasses = $form->getAttribute('class');
+        $existingClasses = $form->getAttribute('class') ?? '';
         //let’s make sure that we don’t have bootstrap form classes
         $existingClasses = str_replace('form-horizontal', '', str_replace('form-inline', '', $existingClasses));
 

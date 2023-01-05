@@ -34,7 +34,7 @@ class SitemapController extends AbstractController
         $router = $this->getEvent()->getRouter();
         $plainPages = [];
 
-        foreach ($articles as $article) {
+        /*foreach ($articles as $article) {
             $page = new \Laminas\Navigation\Page\Mvc([
                 'route' => 'news',
                 'action' => 'show',
@@ -44,7 +44,7 @@ class SitemapController extends AbstractController
             $page->setRouter($router);
             $navigationContainer->addPage($page);
             $plainPages[] = $article;
-        }
+        }*/
         
         //we cannot locally parse results from DB PDO,
         //thus we are passing a regular array

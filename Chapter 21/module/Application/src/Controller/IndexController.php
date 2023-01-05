@@ -13,6 +13,12 @@ namespace Application\Controller;
 use Laminas\View\Model\ViewModel;
 use Application\Model\UsersTable;
 
+use Laminas\ConfigAggregator\ConfigAggregator;
+use Laminas\ConfigAggregator\PhpFileProvider;
+use Laminas\ConfigAggregator\ArrayProvider;
+use Brick\VarExporter\ExportException;
+use Brick\VarExporter\VarExporter;
+
 class IndexController extends AbstractController
 {
     private $usersTable = null;
@@ -62,6 +68,31 @@ class IndexController extends AbstractController
 	//\Utils\Logs\Debug::dump('long message', ['desc' => 'long', 'log' => true]);
         
         //throw new \Exception('Our custom exception');
+        
+        
+
+$aggregator = new ConfigAggregator([
+    new PhpFileProvider('config/autoload/global.php'),
+]);
+
+$aggregator = new ConfigAggregator(
+    [
+        new ArrayProvider([
+            ConfigAggregator::ENABLE_CACHE => true,
+            ConfigAggregator::CACHE_FILEMODE => 0600
+        ]),
+        new PhpFileProvider('config/autoload/global.php'),
+    ],
+    'data/config-cache.php'
+);
+//var_dump($aggregator->getMergedConfig()); exit();
+
+//    \[(.*?)\],(..)*,    < WIN
+
+
+$contents = require_once(__DIR__.'/../../../../config/autoload/global.php');
+//print_r($contents);
+//echo VarExporter::export($aggregator, VarExporter::ADD_RETURN | VarExporter::CLOSURE_SNAPSHOT_USES); exit();
         
         return $view;
     }

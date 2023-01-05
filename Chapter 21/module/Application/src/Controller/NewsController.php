@@ -27,4 +27,10 @@ class NewsController extends AbstractController
             'page' => $pageDetails
         ];
     }
+    
+    public function generateAction()
+    {
+        
+        exit('generated code:');
+    }
 }

@@ -35,7 +35,7 @@
             {block 'content'}{/block}
             <hr>
             <footer>
-                <p>&copy; <?= date('Y') ?> "Laminas: Build Enterprise Websites" - Adam Omelak.</p>
+                <p>&copy; <?= date('Y') ?> "Laminas: MVC Framework for PHP" - Adam Omelak.</p>
             </footer>
         </div>
     </body>

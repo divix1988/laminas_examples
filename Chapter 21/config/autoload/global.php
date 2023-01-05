@@ -1,5 +1,5 @@
 <?php
-return array(
+return [
     'db' => array(
         'driver' => 'Pdo',
         'dsn' => 'mysql:dbname=laminasDB;host=localhost',
@@ -24,7 +24,7 @@ return array(
         ],
         'abstract_factories' => [
             Laminas\Navigation\Service\NavigationAbstractServiceFactory::class,
-	]
+        ],
     ],
     'api-tools-mvc-auth' => [
         'authentication' => [
@@ -46,8 +46,9 @@ return array(
             \Laminas\Session\Validator\HttpUserAgent::class,
 	],
     ],
-    'navigation' => [
-	'default' => [
+     'navigation' => [
+        
+        'default' => [
             [
                 'label' => 'Home Page',
                 'route' => 'home',
@@ -109,17 +110,10 @@ return array(
                 'label' => 'Forms',
                 'route' => 'forms'
             ],
-            [
-                'label' => 'News',
-                'route' => 'news',
-                'pages' => [
-                    [
-                        'label' => 'Article',
-                        'route' => 'news',
-                        'action' => 'show'
-                    ]
-                ]
-            ],
 	]
-    ]
-);
+
+    ],
+
+
+
+];

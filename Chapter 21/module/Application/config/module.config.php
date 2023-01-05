@@ -47,6 +47,58 @@ return [
                     ],
                 ],
             ],
+/*'users' => [
+    'type' => Segment::class,
+    'options' => [
+        'route' => '/users',
+        'defaults' => [
+            'controller' => Controller\UsersController::class,
+            'action' => 'index',
+        ],
+    ],
+    'may_terminate' => true,
+    'child_routes' => [
+        'add' => [
+            'type' => 'literal',
+            'options' => [
+                'route' => '/add',
+                'defaults' => [
+                    'controller' => Controller\UsersController::class,
+                    'action' => 'add',
+                ],
+            ]
+        ],
+        'edit' => [
+            'type' => Segment::class,
+            'options' => [
+                'route' => '/edit[/:id]',
+                'defaults' => [
+                    'controller' => Controller\UsersController::class,
+                    'action' => 'edit',
+                ],
+            ]
+        ],
+        'delete' => [
+            'type' => Segment::class,
+            'options' => [
+                'route' => '/delete[/:id]',
+                'defaults' => [
+                    'controller' => Controller\UsersController::class,
+                    'action' => 'delete',
+                ],
+            ]
+        ],
+        'paginator' => [
+            'type' => Segment::class,
+            'options' => [
+                'route' => '/[page/:page]',
+                'defaults' => [
+                    'page' => 1
+                ]
+            ]
+        ]
+    ]
+],*/
             'comics' => [
                 'type' => Literal::class,
                 'options' => [

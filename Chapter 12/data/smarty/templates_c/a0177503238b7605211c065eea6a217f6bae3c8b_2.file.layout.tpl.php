@@ -79,7 +79,7 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_21088626835e5afdce
             <footer>
                 <p>&copy; <?php echo '<?=';?>
  date('Y') <?php echo '?>';?>
- "Laminas: Build Enterprise Websites" - Adam Omelak.</p>
+ "Laminas: MVC Framework for PHP" - Adam Omelak.</p>
             </footer>
         </div>
     </body>

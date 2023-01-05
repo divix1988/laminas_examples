@@ -123,10 +123,10 @@ class UsersController  extends AbstractController
             $del = $request->getPost('del', 'Cancel');
             
             if ($del == 'Delete') {
-                    $userId = (int) $request->getPost('id');
-                    $this->usersTable->delete($userId);
+                $userId = (int) $request->getPost('id');
+                $this->usersTable->delete($userId);
             }
-            // redirect tot he users list
+            // redirect to the users list
             return $this->redirect()->toRoute('users');
 	}
 	return [

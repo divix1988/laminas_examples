@@ -8,7 +8,12 @@ class FormsController extends AbstractController
 {
     public function indexAction()
     {
-        $userForm = new UserForm();
+        $userForm = new UserForm(
+            'user_form',
+            [
+                'baseUrl' => $this->baseUrl
+            ]
+        );
         $request = $this->getRequest();
 
         if (!$request->isPost()) {

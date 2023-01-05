@@ -91,7 +91,7 @@ echo '<?=';?>
             <footer>
                 <p>&copy; <?php echo '<?=';?>
  date('Y') <?php echo '?>';?>
- "Laminas: Build Enterprise Websites" - Adam Omelak.</p>
+ "Laminas: MVC Framework for PHP" - Adam Omelak.</p>
             </footer>
         </div>
         <?php echo '<?=';?>

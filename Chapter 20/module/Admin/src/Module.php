@@ -21,7 +21,7 @@ class Module
         $em->attach(MvcEvent::EVENT_DISPATCH, [$this, 'selectLayoutBasedOnRoute']);
         
         $sm = $app->getServiceManager();
-	$listener = $sm->get(\ZfcRbac\View\Strategy\RedirectStrategy::class);
+	$listener = $sm->get(\LmcRbacMvc\View\Strategy\RedirectStrategy::class);
 	$listener->attach($em);
     }
 

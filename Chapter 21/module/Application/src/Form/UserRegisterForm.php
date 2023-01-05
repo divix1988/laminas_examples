@@ -12,7 +12,7 @@ class UserRegisterForm extends \Laminas\Form\Form implements \Laminas\InputFilte
     const FIELDSET_USERNAME = 'user_username';
     const FIELDSET_LOGIN = 'user_login';
 
-    public function __construct($name = 'register_user', $params)
+    public function __construct($name = 'register_user', array $params = [])
     {
         parent::__construct($name, $params);
         $this->setAttribute('class', 'styledForm');

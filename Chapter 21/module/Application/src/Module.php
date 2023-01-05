@@ -125,7 +125,7 @@ class Module
     {
         $serviceManager = $e->getApplication()->getServiceManager();
         $session = $serviceManager->get(SessionManager::class);
-
+        
         try {
             $session->start();
             $container = new Session\Container('initialized');

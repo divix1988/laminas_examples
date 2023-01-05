@@ -280,7 +280,7 @@ class ArticlesController extends AbstractController
     public function deleteallAction() {
         if (!$this->isGranted('deleteAll')) {
             //exit('unauthorized');
-            throw new \ZfcRbac\Exception\UnauthorizedException('Unauthorized. An access for superadmins only.');
+            throw new \LmcRbacMvc\Exception\UnauthorizedException('Unauthorized. An access for superadmins only.');
         }
         exit('congrats, you have access');
         //print_r($this->isGranted('deleteall'));
