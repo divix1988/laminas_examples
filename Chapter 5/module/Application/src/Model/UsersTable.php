@@ -1,7 +1,7 @@
 <?php
 namespace Application\Model;
 use Application\Model\User;
-
+use Laminas\Db\TableGateway\TableGateway;
 
 class UsersTable
 {

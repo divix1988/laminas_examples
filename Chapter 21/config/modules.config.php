@@ -42,6 +42,5 @@ return array(
     'Application',
     'ApplicationApi',
     'Admin',
-    'LmcRbacMvc',
-    'ModuleName'
+    'LmcRbacMvc'
 );

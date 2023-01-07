@@ -14,7 +14,7 @@ use Laminas\Form\LabelAwareInterface;
 
 class BootstrapFormRow extends \Laminas\Form\View\Helper\FormRow
 {
-    public function render(ElementInterface $element, $labelPosition = null)
+    public function render(ElementInterface $element, ?string $labelPosition = null): string
     {
         $escapeHtmlHelper = $this->getEscapeHtmlHelper();
         $labelHelper = $this->getLabelHelper();
@@ -199,7 +199,7 @@ class BootstrapFormRow extends \Laminas\Form\View\Helper\FormRow
 	return $markup;
     }
 
-    public function getInputErrorClass() {
+    public function getInputErrorClass(): string {
         return 'has-error';
     }
 }

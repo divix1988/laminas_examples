@@ -71,7 +71,7 @@ class AddLangContentForm extends \Laminas\Form\Form implements \Laminas\InputFil
             [
                 'name' => self::ELEMENT_LANGUAGE,
                 'filters' => [
-                    ['name' => \DivixUtils\Laminas\Filter\FriendlyUrl::class],
+                    ['name' => \Utils\Laminas\Filter\FriendlyUrl::class],
                 ],
                 'validators' => [
                     [

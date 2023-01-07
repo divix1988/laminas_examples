@@ -31,7 +31,7 @@ class Module
                     $resultSetPrototype = new ResultSet();
                     $resultSetPrototype->setArrayObjectPrototype(new User());
                     
-                    return new TableGateway('users', $dbAdapter, null,$resultSetPrototype);
+                    return new TableGateway('users', $dbAdapter, null, $resultSetPrototype);
                 },
                 'Application\Model\UsersTable' => function($sm) {
                     $tableGateway = $sm->get('UsersTableGateway');

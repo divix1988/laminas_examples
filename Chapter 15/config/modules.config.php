@@ -18,7 +18,6 @@ return array(
     'Laminas\\Mvc\\Plugin\\Prg',
     'Laminas\\Session',
     'Laminas\\Mvc\\I18n',
-    
     'Laminas\\Form',
     'Laminas\\Hydrator',
     'Laminas\\InputFilter',
@@ -41,6 +40,5 @@ return array(
     'Laminas\\ApiTools\\Documentation',
     'Application',
     'ApplicationApi',
-    'ZfcAdmin',
     'Admin'
 );

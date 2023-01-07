@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'zfc_rbac' => [
+    'lmc_rbac' => [
         'guards' => [
             \LmcRbacMvc\Guard\RouteGuard::class => [
                 'admin*' => ['admin', 'super_admin']

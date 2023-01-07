@@ -21,7 +21,7 @@ class BootstrapFormCollection extends \Laminas\Form\View\Helper\FormCollection
         return $this->render($element, $labelPosition);
     }
 
-    public function render(ElementInterface $element, $labelPosition = null)
+    public function render(ElementInterface $element, ?string $labelPosition = null): string
     {
 	$renderer = $this->getView();
 

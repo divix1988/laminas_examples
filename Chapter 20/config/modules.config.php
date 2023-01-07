@@ -41,7 +41,6 @@ return array(
     'Laminas\\ApiTools\\Documentation',
     'Application',
     'ApplicationApi',
-    'ZfcAdmin',
     'Admin',
     'LmcRbacMvc',
 );

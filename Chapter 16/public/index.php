@@ -9,8 +9,8 @@ use Laminas\Stdlib\ArrayUtils;
  * Display all errors when APPLICATION_ENV is development.
  */
 if ($_SERVER['APPLICATION_ENV'] === 'development') {
-    error_reporting(E_ALL);
-    ini_set('display_errors', '1');
+    error_reporting(E_ALL & ~E_DEPRECATED);
+    ini_set('display_errors', E_ALL & ~E_DEPRECATED);
 }
 if (!defined('APPLICATION_PATH')) {
     define('APPLICATION_PATH', realpath(__DIR__ . '/../'));

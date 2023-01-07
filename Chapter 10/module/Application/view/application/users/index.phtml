@@ -3,7 +3,13 @@
     <a href="<?= $this->url('users', ['action' => 'add']) ?>">Add User</a>
     <table class="table">
         <tr>
-        <th>Id</th><th>Name</th><th>Actions</th>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Gender</th>
+            <th>Education</th>
+            <th>Interests</th>
+            <th>Actions</th>
         </tr>
         <?php foreach ($userRows as $user): ?>
         <tr>

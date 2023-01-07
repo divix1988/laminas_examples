@@ -30,8 +30,11 @@ class BootstrapForm extends \Laminas\View\Helper\AbstractHelper
         }
         $formContent = '';
         $existingClasses = $form->getAttribute('class') ?? '';
-        //let’s make sure that we don’t have bootstrap form classes
-        $existingClasses = str_replace('form-horizontal', '', str_replace('form-inline', '', $existingClasses));
+        
+        if (!empty($existingClasses)) {
+            //let’s make sure that we don’t have bootstrap form classes
+            $existingClasses = str_replace('form-horizontal', '', str_replace('form-inline', '', $existingClasses));
+        }
 
         if ($mode == self::MODE_INLINE) {
             $form->setAttribute('class', $existingClasses.' form-inline');
