@@ -14,6 +14,8 @@ class ComicsTableTest extends \Laminas\Test\PHPUnit\Controller\AbstractHttpContr
     protected $traceError = true;
     protected $usersTable;
     protected $baseUrl;
+    
+    use \Prophecy\PhpUnit\ProphecyTrait;
 
     protected function setup():void
     {

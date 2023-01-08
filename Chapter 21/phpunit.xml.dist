@@ -11,7 +11,7 @@
         </whitelist>
     </filter>
     <php>
-        <const name="APPLICATION_PATH" value="E:\RZECZY_ADAMA\_XAMPP\xampp-7.4\htdocs\laminas_app\" />
+        <const name="APPLICATION_PATH" value="E:\RZECZY_ADAMA\_XAMPP\xampp-8.1\htdocs\laminas_app\" />
         <server name="APPLICATION_ENV" value="tests" />
     </php>
 </phpunit>

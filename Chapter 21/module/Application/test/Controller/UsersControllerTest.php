@@ -15,6 +15,8 @@ class UsersControllerTest extends \Laminas\Test\PHPUnit\Controller\AbstractHttpC
     protected $traceError = true;
     protected $usersTable;
     protected $userHobbiesTable;
+    
+    use \Prophecy\PhpUnit\ProphecyTrait;
 
     protected function setup():void
     {
@@ -100,7 +102,7 @@ class UsersControllerTest extends \Laminas\Test\PHPUnit\Controller\AbstractHttpC
 	$this->usersTable->getById($id)->willReturn($rowset);
 	$this->dispatch('/users/edit/'.$id, 'GET');
 	$this->assertResponseStatusCode(200);
-	$dom = new \Laminas\Dom\Query($this->getResponse());
+	$dom = new \Laminas\Dom\Query($this->getResponse()->getBody());
 	$results = $dom->execute('input[name="username"]');
 	$this->assertEquals($editData['username'], $results[0]->getAttribute('value'));
 	$this->assertQueryContentContains('.jumbotron .zf-green', 'Edit User id: '.$editData['id']);

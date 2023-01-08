@@ -36,28 +36,6 @@ class UserForm extends \Laminas\Form\Form
         ]);
 
         $this->add([
-            'name' => 'apctha',
-            'type' => Element\Captcha::class,
-            'options' => [
-                'label' => 'Rewrite Captcha text:',
-                'captcha' => new \Laminas\Captcha\Image([
-                    'name' => 'myCaptcha',
-                    'messages' => array(
-                        'badCaptcha' => 'incorrectly rewritten image text'
-                    ),
-                    'wordLen' => 5,
-                    'timeout' => 100,
-                    'font' => APPLICATION_PATH.'/public/fonts/arbli.ttf',
-                    'imgDir' => APPLICATION_PATH.'/public/img/captcha/',
-                    'imgUrl' => $this->getOption('baseUrl').'/public/img/captcha/',
-                    'lineNoiseLevel' => 4,
-                    'width' => 200,
-                    'height' => 70
-                ]),
-            ]
-        ]);
-
-        $this->add([
             'name' => 'submit',
             'type' => 'submit',
             'attributes' => [

@@ -51,13 +51,14 @@ class UsersController  extends AbstractController
         $userForm->setData($request->getPost());
         
         if (!$userForm->isValid()) {
-            print_r($userForm->getMessages());
-            exit('not valid');
+            //this is not needed for Unit tests
+            //print_r($userForm->getMessages());
+            //exit('not valid');
             return ['userForm' => $userForm];
         }
         $userModel->exchangeArray($userForm->getData());
         $this->usersTable->save($userModel);
-        
+
         return $this->redirect()->toRoute('users');
     }
     
