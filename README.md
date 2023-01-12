@@ -4,4 +4,4 @@ Available at: https://www.amazon.com/Laminas-MVC-Framework-Adam-Omelak/dp/B088B2
 
 Please raise any issues found in this book by creating a New Issue in the Issues tab.
 
-![alt text](http://divix.home.pl/laminas/laminas_cover_v2.png)
+![alt text](http://divix.home.pl/laminas/gitlab.png)
